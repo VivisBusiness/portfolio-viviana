@@ -1,12 +1,11 @@
 import './App.css'
+import Hero from './sections/Hero/Hero'
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1>
-        Portfolio loading ...
-      </h1>
-    </div>
+    <>
+      <Hero />
+    </>
   )
 }
 
