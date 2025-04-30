@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="w-full flex items-center bg-stone-50 justify-center px-4">
-      <div className="max-w-4xl text-center py-16 px-6">
+      <div className="max-w-4xl text-center py-12 md:px-6">
         <h1 className="text-4xl font-bold text-purple-800">
           Viviana Moreno Gordillo
         </h1>
