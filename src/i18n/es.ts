@@ -21,6 +21,6 @@ export const es = {
       title: 'UI Portfolio Personal',
       description: 'Diseño de interfaz para mi portafolio personal en Figma, optimizado para una experiencia visual clara y funcional que resalta mis proyectos y habilidades.'
     },
-    button: 'Ver'
+    buttonText: 'Ver'
   }
 }
