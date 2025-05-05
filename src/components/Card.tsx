@@ -7,7 +7,7 @@ const Card = ({ title, description, url, buttonText }: CardProps) => {
         {title}
       </h3>
 
-      <p className="text-gray-700 mb-4">
+      <p className="text-gray-700 mb-4 min-h-28">
         {description}
       </p>
       
@@ -15,7 +15,7 @@ const Card = ({ title, description, url, buttonText }: CardProps) => {
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-block bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-700 transition"
+        className="border rounded px-4 py-2 text-sm transition border-purple-800 text-purple-800 hover:bg-purple-50"
       >
         {buttonText}
       </a>
