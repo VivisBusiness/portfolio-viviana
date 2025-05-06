@@ -22,5 +22,8 @@ export const es = {
       description: 'Diseño de interfaz para mi portafolio personal en Figma, optimizado para una experiencia visual clara y funcional que resalta mis proyectos y habilidades.'
     },
     buttonText: 'Ver'
+  },
+  footer: {
+    rights: "Viviana Moreno. Todos los derechos reservados.",
   }
 }
