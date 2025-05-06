@@ -22,5 +22,8 @@ export const en = {
       description: 'UI design for my personal portfolio in Figma, optimized for a clear and functional visual experience that highlights my projects and skills.'
     },
     buttonText: 'View'
+  },
+  footer: {
+    rights: "Viviana Moreno. All rights reserved.",
   }
 }
