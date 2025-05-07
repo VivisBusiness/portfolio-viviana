@@ -26,6 +26,13 @@ export const es = {
   skills: {
     title: "Habilidades",
   },
+  contact: {
+    title: "Contacto",
+    linkedIn: "Conéctate conmigo en LinkedIn",
+    gitHub: "Explora mis repositorios en GitHub",
+    email: "Envíame un correo",
+    CodePen: "Mira mis snippets en CodePen"
+  },
   footer: {
     rights: "Viviana Moreno. Todos los derechos reservados.",
   }
