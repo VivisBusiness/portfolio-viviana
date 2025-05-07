@@ -4,6 +4,7 @@ import Header from './components/Header'
 import AboutMe from './sections/AboutMe/AboutMe'
 import Hero from './sections/Hero/Hero'
 import Projects from './sections/Projects/Projects'
+import Skills from './sections/Skills/Skills'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <AboutMe />
       <Projects />
+      <Skills />
       <Footer />
     </>
   )
