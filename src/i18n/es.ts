@@ -23,6 +23,9 @@ export const es = {
     },
     buttonText: 'Ver'
   },
+  skills: {
+    title: "Habilidades",
+  },
   footer: {
     rights: "Viviana Moreno. Todos los derechos reservados.",
   }
