@@ -2,8 +2,9 @@ import { useTranslation } from "react-i18next";
 import SkillCard from "./SkillCard";
 import { skills } from "../../utils/skillsData";
 
-export default function SkillsSection() {
+const Skills = () => {
   const { t } = useTranslation();
+
   return (
     <section className="py-16 px-6 md:px-24 bg-white">
       <h2 className="text-3xl font-bold text-purple-700 mb-10">
@@ -28,3 +29,5 @@ export default function SkillsSection() {
     </section>
   );
 }
+
+export default Skills;

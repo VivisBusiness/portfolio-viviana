@@ -1,7 +1,7 @@
 import { Icon } from '@iconify/react';
 import { Skill } from '../../types/Skill.type';
 
-export default function SkillCard({ name, icon }: Skill) {
+const SkillCard = ({ name, icon }: Skill) => {
   return (
     <div
       className="flex flex-col items-center justify-center p-4 border rounded-xl shadow-sm hover:shadow-md transition bg-white dark:bg-gray-700"
@@ -12,3 +12,5 @@ export default function SkillCard({ name, icon }: Skill) {
     </div>
   );
 }
+
+export default SkillCard;
