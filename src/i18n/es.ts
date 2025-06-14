@@ -1,11 +1,18 @@
 export const es = {
+  hero: {
+    myName: "Viviana Moreno Gordillo",
+    title: "Desarrolladora Frontend",
+    description: "Enfoque frontend, visión fullstack — transformando ideas en productos digitales completos.",
+    contact: "Contáctame",
+    cv: "Ver CV"
+  },
   aboutMe: {
     title: "Sobre Mi",
-    description: `Soy desarrolladora de software con formación en ingeniería electrónica y enfoque en tecnologías Frontend. 
-    Mi stack principal incluye Angular, React.js, React Native, TypeScript y Sass, con experiencia en la construcción de interfaces modernas, accesibles y responsivas. 
-    Actualmente me encuentro fortaleciendo mis habilidades en el desarrollo Backend con Node.js, NestJS y MongoDB, y tengo conocimientos básicos en Java con Spring Boot.
-    Me destaco por ser una persona autodidacta, comprometida con la calidad del código y la mejora continua. 
-    Manejo herramientas como Git, GitHub, Azure DevOps, Postman y Figma, y disfruto trabajar en entornos colaborativos donde pueda aportar soluciones limpias y eficientes centradas en el usuario.`,
+    description: `¡Hola! Soy Viviana Moreno Gordillo, desarrolladora de software con sólida experiencia en desarrollo frontend y actualmente estudiante de Ingeniería de Sistemas. A lo largo de más de 4 años de experiencia profesional, he trabajado en el diseño y desarrollo de interfaces web y móviles modernas, accesibles y responsivas, utilizando tecnologías como ReactJS, Angular, React Native, TypeScript y Sass.
+    He participado en proyectos corporativos y de gran escala para empresas como McKinsey & Company y BITS Americas, donde he contribuido a la creación de portales transaccionales, aplicaciones móviles y soluciones digitales enfocadas en la experiencia del usuario. Un aspecto que valoro especialmente es la accesibilidad web (WCAG), asegurando que las interfaces sean inclusivas y usables por todas las personas.
+    Actualmente estoy fortaleciendo mis conocimientos en desarrollo backend, trabajando con Node.js, NestJS y MongoDB, y cuento con bases en Java y Spring Boot. Esto me permite abordar proyectos desde una visión más completa y técnica.
+    Trabajo con herramientas como Git, GitHub, Azure DevOps, Postman, Figma, Android Studio, Xcode y Swagger, siempre orientada a mantener procesos limpios, organizados y centrados en el usuario.
+    Me defino como autodidacta, detallista, y apasionada por la mejora continua. Disfruto aprender nuevas tecnologías, colaborar en equipo y construir soluciones que marquen una diferencia real.`,
   },
   projects: {
     title: "Proyectos",
@@ -18,7 +25,7 @@ export const es = {
       description: 'Sitio web interactivo desarrollado con React y TypeScript, diseñado para mostrar mis proyectos, habilidades técnicas y experiencia profesional en desarrollo web.'
     },
     portfolioUI: {
-      title: 'UI Portfolio Personal',
+      title: 'UI Portafolio Personal',
       description: 'Diseño de interfaz para mi portafolio personal en Figma, optimizado para una experiencia visual clara y funcional que resalta mis proyectos y habilidades.'
     },
     buttonText: 'Ver'

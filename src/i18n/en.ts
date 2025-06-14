@@ -1,11 +1,18 @@
 export const en = {
+  hero: {
+    myName: "Viviana Moreno Gordillo",
+    title: "Frontend Developer",
+    description: "Frontend focus, fullstack approach — transforming ideas into complete digital products.",
+    contact: "Contact Me",
+    cv: "View CV"
+  },
   aboutMe: {
     title: "About Me",
-    description: `I am a software developer with a background in electronic engineering and a strong focus on frontend technologies. 
-    My main stack includes Angular, React.js, React Native, TypeScript, and Sass, with experience building modern, accessible, and responsive user interfaces. 
-    I am currently expanding my backend skills with Node.js, NestJS, and MongoDB, and I have basic knowledge of Java with Spring Boot.
-    I stand out for being self-taught, detail-oriented, and committed to code quality and continuous improvement. 
-    I work confidently with tools such as Git, GitHub, Azure DevOps, Postman, and Figma, and I enjoy contributing to collaborative environments with clean, efficient, and user-focused solutions.`,
+    description: `Hi! I’m Viviana Moreno Gordillo, a software developer with strong experience in frontend development and currently pursuing a degree in Systems Engineering. Over the past 4 years, I’ve been involved in the design and development of modern, accessible, and responsive web and mobile interfaces using technologies like ReactJS, Angular, React Native, TypeScript, and Sass.
+    I’ve contributed to large-scale projects for companies like McKinsey & Company and BITS Americas, building transactional portals, mobile applications, and digital platforms with a strong focus on user experience. One of my key strengths is ensuring web accessibility (WCAG), making sure that the products I build are inclusive and usable for everyone.
+    Currently, I’m expanding my skills into backend development, working with Node.js, NestJS, and MongoDB, and I have a foundational knowledge of Java and Spring Boot, allowing me to approach projects with a broader technical perspective.
+    I’m confident using tools like Git, GitHub, Azure DevOps, Postman, Figma, Android Studio, Xcode, and Swagger, keeping my workflow clean, efficient, and user-centered.
+    I’m a self-taught, detail-oriented, and highly motivated developer who enjoys learning new technologies, collaborating in agile teams, and building solutions that make a difference.`,
   },
   projects: {
     title: "Projects",
