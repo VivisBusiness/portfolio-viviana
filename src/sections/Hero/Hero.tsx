@@ -1,3 +1,4 @@
+import { type MouseEvent } from "react";
 import { useTranslation } from "react-i18next";
 
 const Hero = () => {
@@ -16,6 +17,11 @@ const Hero = () => {
   const handleViewFile = () => {
     const fileUrl = getFileUrl();
     window.open(fileUrl, '_blank', 'noopener,noreferrer');
+  };
+
+  const handleContactClick = (event: MouseEvent<HTMLButtonElement>) => {
+    event.preventDefault();
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
   return (
@@ -42,7 +48,10 @@ const Hero = () => {
             {t("hero.cv")}
           </button>
 
-          <button className="flex-1 border border-purple-800 text-purple-800 hover:bg-purple-50 font-medium py-2 px-6 rounded-xl">
+          <button
+            onClick={handleContactClick}
+            className="flex-1 border border-purple-800 text-purple-800 hover:bg-purple-50 font-medium py-2 px-6 rounded-xl transition-colors duration-200"
+          >
             {t("hero.contact")}
           </button>
         </div>

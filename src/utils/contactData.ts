@@ -12,6 +12,12 @@ export const contactData = (t: (key: string) => string)  =>  [
     url: 'https://github.com/VivisBusiness',
   },
   {
+    name: 'WhatsApp',
+    icon: 'logos:whatsapp-icon',
+    tooltip: t('contact.whatsApp'),
+    url: 'https://wa.me/+573143040998',
+  },
+  {
     name: 'Email',
     icon: 'logos:google-gmail',
     tooltip: t('contact.email'),
