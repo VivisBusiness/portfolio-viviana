@@ -37,6 +37,7 @@ export const es = {
     title: "Contacto",
     linkedIn: "Conéctate conmigo en LinkedIn",
     gitHub: "Explora mis repositorios en GitHub",
+    whatsApp: "Hablemos de proyectos en React y soluciones frontend modernas",
     email: "Envíame un correo",
     CodePen: "Mira mis snippets en CodePen"
   },
